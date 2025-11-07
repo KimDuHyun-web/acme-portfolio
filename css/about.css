@@ -1,0 +1,20 @@
+.section_desc{
+  color: var(--midium--gray);
+}
+.qna, .portfolio{
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--base--unit) * 2);
+  align-items: center;
+}
+.qna_list{
+  width: 750px;
+  margin: 0 auto;
+}
+.qna_list li h3{
+  height: calc(var(--base--unit) * 2);
+  background:var(--light--gray);
+}
+.qna_list li + li{
+  margin-top: 1px;
+}
