@@ -24,7 +24,7 @@
   --section--tt: calc(var(--body) * 2);
   --content--tt: calc(var(--bdoy) * 1.5);
   --body--link: var(--body);
-  --section--desc:calc(var(--body) * 1.125);
+  --section--desc: calc(var(--body) * 1.125);
 }
 
 /* Layout */
