@@ -212,3 +212,32 @@ header nav ul li:first-child a{
   align-items: center;
   gap:var(--base--unit);
 }
+/* SLIDESHOW */
+.wrapper{
+  overflow: hidden;
+  position:relative;
+}
+.slide_container{
+  transition: 0.5s;
+  display:flex;
+  width: calc(var(--container) * 3);
+}
+.slide_container li{
+  text-align: center;
+  width: 100%;
+}
+.wrapper button{
+  position:absolute;
+  top:50%;
+  color:var(--light--gray);
+  transform:translateY(-50%)
+}
+.wrapper button span{
+  font-size: 45px;
+}
+.wrapper button.prev{
+  left:0;
+}
+.wrapper button.next{
+  right:0;
+}
